@@ -2,11 +2,12 @@
   "resources": [
     {"id":{"name":"spr_button_2","path":"sprites/spr_button_2/spr_button_2.yy",},"order":2,},
     {"id":{"name":"obj_button","path":"objects/obj_button/obj_button.yy",},"order":4,},
-    {"id":{"name":"spr_gpu","path":"sprites/spr_gpu/spr_gpu.yy",},"order":5,},
+    {"id":{"name":"spr_gpu","path":"sprites/spr_gpu/spr_gpu.yy",},"order":1,},
     {"id":{"name":"obj_crypto_button","path":"objects/obj_crypto_button/obj_crypto_button.yy",},"order":1,},
+    {"id":{"name":"spr_mouse","path":"sprites/spr_mouse/spr_mouse.yy",},"order":2,},
     {"id":{"name":"spr_button_list","path":"sprites/spr_button_list/spr_button_list.yy",},"order":3,},
     {"id":{"name":"scr_event_unregister","path":"scripts/scr_event_unregister/scr_event_unregister.yy",},"order":3,},
-    {"id":{"name":"spr_blockChain","path":"sprites/spr_blockChain/spr_blockChain.yy",},"order":6,},
+    {"id":{"name":"spr_blockChain","path":"sprites/spr_blockChain/spr_blockChain.yy",},"order":0,},
     {"id":{"name":"spr_button_1","path":"sprites/spr_button_1/spr_button_1.yy",},"order":1,},
     {"id":{"name":"scr_event_register","path":"scripts/scr_event_register/scr_event_register.yy",},"order":0,},
     {"id":{"name":"obj_event_manager","path":"objects/obj_event_manager/obj_event_manager.yy",},"order":2,},
@@ -49,6 +50,7 @@
     {"folderPath":"folders/Animation Curves.yy","order":12,"resourceVersion":"1.0","name":"Animation Curves","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Notes.yy","order":13,"resourceVersion":"1.0","name":"Notes","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Extensions.yy","order":14,"resourceVersion":"1.0","name":"Extensions","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/building sprites.yy","order":7,"resourceVersion":"1.0","name":"building sprites","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
