@@ -17,6 +17,7 @@
     {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},"order":0,},
     {"id":{"name":"spr_bl_border","path":"sprites/spr_bl_border/spr_bl_border.yy",},"order":0,},
     {"id":{"name":"scr_fire","path":"scripts/scr_fire/scr_fire.yy",},"order":1,},
+    {"id":{"name":"scr_add_coin","path":"scripts/scr_add_coin/scr_add_coin.yy",},"order":4,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
@@ -60,7 +61,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.6.0.23",
+    "IDEVersion": "2022.5.0.8",
   },
   "resourceVersion": "1.5",
   "name": "CryptoClicker",
