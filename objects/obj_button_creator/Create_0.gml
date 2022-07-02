@@ -13,8 +13,8 @@ with (gpu_button){
 	onClick = function(){
 		if (global.numCrypto >= global.gpuCost){
 			global.numCrypto -= global.gpuCost
-			global.gpuCost *= 1.1
 			global.numGPUs += 1
+			global.gpuCost = global.buildingStats[0][0] * (global.buildingStats[0][0]^global.numGPUs)
 			numberOwned = global.numGPUs
 			buttonCost = global.gpuCost	
 		}
