@@ -3,17 +3,18 @@
 buttonWidth = 250
 buttonHeight = 100
 
-blockchain_button = instance_create_layer(500,100,"Instances",obj_button)
-with (blockchain_button){
+mice_button = instance_create_layer(500,100,"Instances",obj_button)
+with (mice_button){
 	button_width = other.buttonWidth
 	button_height = other.buttonHeight
-	buttonText = "The Blockchain"
-	buttonImage = spr_blockChain
+	buttonText = "Mice"
+	buttonImage = spr_mouse
 	buttonCost = global.gpuCost
 	onClick = function(){
 		if (global.numCrypto >= global.gpuCost){
 			global.numCrypto -= global.gpuCost
-			global.gpuCost = global.buildingStats[0][0] * (power(global.buildingStats[0][1],global.numGPUs + 1))
+			global.gpuCost = global.buildingStats[0][buildingStats.BASECOST]
+			* (power(global.buildingStats[0][buildingStats.COSTINCREASE],global.numGPUs))
 			global.numGPUs += 1
 			numberOwned = global.numGPUs
 			buttonCost = global.gpuCost	
@@ -23,7 +24,28 @@ with (blockchain_button){
 }
 
 
-gpu_button = instance_create_layer(500,200,"Instances",obj_button)
+blockchain_button = instance_create_layer(500,200,"Instances",obj_button)
+with (blockchain_button){
+	button_width = other.buttonWidth
+	button_height = other.buttonHeight
+	buttonText = "The Blockchain"
+	buttonImage = spr_blockChain
+	buttonCost = global.gpuCost
+	onClick = function(){
+		if (global.numCrypto >= global.gpuCost){
+			global.numCrypto -= global.gpuCost
+			global.gpuCost = global.buildingStats[0][buildingStats.BASECOST]
+			* (power(global.buildingStats[0][buildingStats.COSTINCREASE],global.numGPUs))
+			global.numGPUs += 1
+			numberOwned = global.numGPUs
+			buttonCost = global.gpuCost	
+		}
+		
+	}
+}
+
+
+gpu_button = instance_create_layer(500,300,"Instances",obj_button)
 with (gpu_button){
 	button_width = other.buttonWidth
 	button_height = other.buttonHeight
@@ -34,7 +56,8 @@ with (gpu_button){
 		if (global.numCrypto >= global.gpuCost){
 			global.numCrypto -= global.gpuCost
 			global.numGPUs += 1
-			global.gpuCost = global.buildingStats[0][0] * (global.buildingStats[0][1]^global.numGPUs)
+			global.gpuCost = global.buildingStats[0][buildingStats.BASECOST]
+			* (power(global.buildingStats[0][buildingStats.COSTINCREASE],global.numGPUs))
 			numberOwned = global.numGPUs
 			buttonCost = global.gpuCost	
 		}
