@@ -12,6 +12,12 @@ global.gpuPower = 0.5
 global.gpuCost = 1
 global.gpuCostIncrease = 1.1
 
+enum buildingStats {
+	BASECOST,
+	COSTINCREASE,
+	BASEVALUE
+}
+
 global.buildingStats = [[1, 1.1, .5]]
 global.buildingsOwned = [0]
 
