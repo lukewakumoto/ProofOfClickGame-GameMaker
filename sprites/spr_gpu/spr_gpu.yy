@@ -71,8 +71,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "building sprites",
+    "path": "folders/Sprites/building sprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_gpu",

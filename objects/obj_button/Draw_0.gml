@@ -8,8 +8,9 @@ draw_sprite_ext(spr_button_1,0,x,y,
 button_width/sprite_get_width(spr_button_1),button_height/sprite_get_height(spr_button_1),0,children_color,children_alpha)
 
 if (buttonImage != noone){
+	buttonScale = sprite_get_width(buttonImage)/(button_height)
 	draw_sprite_ext(buttonImage,0,x - button_width/2 + padding_horizontal,
-	y - button_height/2 + padding_vertical,1.5,1.5,0,children_color,children_alpha)
+	y - button_height/2 + padding_vertical,buttonScale,buttonScale,0,children_color,children_alpha)
 }
 
 
