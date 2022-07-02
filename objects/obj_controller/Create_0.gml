@@ -1,7 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-
+global.numClicks = 0
+global.totalCrypto = 0
 
 global.numCrypto = 0
 global.buttonValue = 1
