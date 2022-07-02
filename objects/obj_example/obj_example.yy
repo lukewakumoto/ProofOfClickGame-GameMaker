@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_example",
-    "path": "sprites/spr_example/spr_example.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,

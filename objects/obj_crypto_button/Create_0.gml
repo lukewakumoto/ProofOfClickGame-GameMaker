@@ -11,7 +11,7 @@ enum buttonStates  {
 }
 
 onRelease = function(){
-	global.numCrypto += global.buttonValue
+	global.numCrypto += global.buttonValue + global.numGPUs * global.gpuPower
 }
 
 
