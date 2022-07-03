@@ -11,7 +11,9 @@ enum buttonStates  {
 }
 
 onRelease = function(){
-	scr_add_coin(global.buttonValue + global.numGPUs * global.gpuPower, 0)
+	scr_add_coin(global.buttonValue + global.numGPUs * global.gpuPower +
+	global.numBlockchain * global.blockchainPower
+	+ global.numMice * global.micePower, 0)
 }
 
 
