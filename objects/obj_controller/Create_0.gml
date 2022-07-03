@@ -8,10 +8,6 @@ global.numCrypto = 0
 global.buttonValue = 1
 
 
-
-
-
-
 global.mouseCost = 1
 global.numMice = 0
 global.micePower = 0.1
@@ -37,10 +33,19 @@ enum buildingNames {
 	GPU
 }
 
-global.buildingStats = [[1, 1.1, .5],
+global.buildingStats = [[1, 1.1, .2],
 						[2, 1.2, 2],
 						[5, 1.3, 5.5]]
 						
 global.buildingsOwned = [0,0,0]
+
+
+increaseTimeSource = time_source_create(time_source_game,1,time_source_units_seconds, function(){
+	
+scr_add_coin(global.numBlockchain * global.blockchainPower + global.numGPUs * global.gpuPower)	
+
+},[],-1)
+
+time_source_start(increaseTimeSource)
 
 

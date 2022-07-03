@@ -25,8 +25,8 @@
   "gridY": 0,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"b00d30cc-cdde-47b8-a485-502ff49edeb0","path":"sprites/spr_gpu/spr_gpu.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b00d30cc-cdde-47b8-a485-502ff49edeb0","path":"sprites/spr_gpu/spr_gpu.yy",},"LayerId":{"name":"71af6af4-d8f5-4066-abf0-bdadbd68be1d","path":"sprites/spr_gpu/spr_gpu.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"b00d30cc-cdde-47b8-a485-502ff49edeb0","path":"sprites/spr_gpu/spr_gpu.yy",},"LayerId":{"name":"d1a0e9fb-fdcd-496e-93b8-f19d8d6a1f2e","path":"sprites/spr_gpu/spr_gpu.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"b00d30cc-cdde-47b8-a485-502ff49edeb0","path":"sprites/spr_gpu/spr_gpu.yy",},"LayerId":{"name":"71af6af4-d8f5-4066-abf0-bdadbd68be1d","path":"sprites/spr_gpu/spr_gpu.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_gpu","path":"sprites/spr_gpu/spr_gpu.yy",},"resourceVersion":"1.0","name":"b00d30cc-cdde-47b8-a485-502ff49edeb0","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
